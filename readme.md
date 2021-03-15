@@ -1,4 +1,4 @@
-[rtestardi](https://github.com/rtestardi)'s sites
+[rtestardi](https://github.com/rtestardi)'s githug pages sites
 =================
 
 [Calchemy](https://rtestardi.github.io/calchemy) -- Calchemy™ -- Math Magic
