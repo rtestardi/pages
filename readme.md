@@ -9,3 +9,7 @@
 [USBTE](https://rtestardi.github.io/usbte/usbte.html) -- Web USB terminal emulator (well, without actual emulation :-)
 
 [Retro](https://rtestardi.github.io/retro/retro.pdf) -- A Retro Computer, built in 1987 and still running in 2021!
+
+## Pictures:
+
+- [Bicycle Trip, 2022](https://onedrive.live.com/?authkey=%21ANAjN%2DHKTE96gkc&v=photos&id=F9F5D0088713D32B%21257776&cid=F9F5D0088713D32B)
