@@ -8,7 +8,7 @@
 
 [USBTE](https://rtestardi.github.io/usbte/usbte.html) -- Web USB terminal emulator (well, without actual emulation :-)
 <br/>
-[Scope](https://rtestardi.github.io/usbte/Scope.html) -- Web USB PIC32MX250F128B oscilloscope!
+[Scope](https://rtestardi.github.io/usbte/Scope.html) -- Web USB PIC32MK0512GPK064/PIC32MX250F128B oscilloscope!
 
 [Retro](https://rtestardi.github.io/retro/retro.pdf) -- A Retro Computer, built in 1987 and still running in 2021!
 
