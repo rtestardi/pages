@@ -8,9 +8,9 @@
 
 [USBTE](https://rtestardi.github.io/usbte/usbte.html) -- Web USB Terminal Emulator (well, without actual emulation :-)
 <br/>
-[Flea-Scope](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB PIC32MK0512GPK064/PIC32MX250F128B Flea-Scope™ gui!
+[Flea-Scope](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB PIC32MK0512GPK064 Flea-Scope™ gui!
 <br/>
-[StickOS-BASIC](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB PIC32MK0512GPK064/PIC32MX250F128B Flea-Scope™ deep dive ui!
+[StickOS-BASIC](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB PIC32MK0512GPK064 Flea-Scope™ deep dive ui!
 
 [Retro](https://rtestardi.github.io/retro/retro.pdf) -- A Retro Computer, built in 1987 and still running in 2021!
 
