@@ -1,13 +1,11 @@
 [rtestardi](https://github.com/rtestardi)'s GitHub Pages sites
 =================
 
-[Calchemy](https://rtestardi.github.io/calchemy) -- Calchemy™ -- Math Magic
+[Calchemy](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic
 
 [StickOS](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment;
 [2nd place contest entry video](http://www.youtube.com/watch?v=nSgha8qjB3E)
 
-[USBTE](https://rtestardi.github.io/usbte/usbte.html) -- Web USB Terminal Emulator (well, without actual emulation :-)
-<br/>
 [Flea-Scope](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB PIC32MK0512GPK064 Flea-Scope™ gui!
 <br/>
 [StickOS-BASIC](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB PIC32MK0512GPK064 Flea-Scope™ deep dive ui!
