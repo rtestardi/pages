@@ -8,6 +8,8 @@
 > [Flea-Scope GUI](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB Graphical User Interface!
 > <br/>
 > [StickOS-BASIC Deep Dive UI](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB StickOS® BASIC Deep Dive User Interface!
+> <br/>
+> [Video Introduction](https://1drv.ms/v/s!An6qoNgNXmeQhadIj1lNkuvh8B7w3Q?e=Q0UZW3) -- very rough preliminary video introduction to Flea-Scope
 
 -----
 [StickOS](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment
