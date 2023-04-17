@@ -4,6 +4,7 @@
 [Calchemy](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic
 
 [Flea-Scope User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™-- 18 Msps analog and more for $18!
+<br/>
 [Flea-Scope GUI](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB Flea-Scope™ Graphical User Interface!
 <br/>
 [StickOS-BASIC Deep Dive UI](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB Flea-Scope™ Deep Dive User Interface!
