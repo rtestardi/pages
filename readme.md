@@ -12,7 +12,7 @@
 > [video introduction](https://1drv.ms/v/s!An6qoNgNXmeQhadIj1lNkuvh8B7w3Q?e=Q0UZW3) -- very rough preliminary video introduction to Flea-Scope
 
 -----
-[StickOS](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment
+[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment
 > [2nd place contest entry video](http://www.youtube.com/watch?v=nSgha8qjB3E) -- from the Freescale "Can Your Badge Do This?" contest
 
 -----
