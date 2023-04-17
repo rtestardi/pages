@@ -3,11 +3,11 @@
 
 [Calchemy](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic
 
-[Flea-Scope User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™-- 18 Msps analog and more for $18!
+[Flea-Scope User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- 18 Msps analog and more for $18!
 <br/>
-[Flea-Scope GUI](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB Flea-Scope™ Graphical User Interface!
+[Flea-Scope GUI](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB Graphical User Interface!
 <br/>
-[StickOS-BASIC Deep Dive UI](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB Flea-Scope™ Deep Dive User Interface!
+[StickOS-BASIC Deep Dive UI](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB Deep Dive User Interface!
 
 [StickOS](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment;
 [2nd place contest entry video](http://www.youtube.com/watch?v=nSgha8qjB3E)
