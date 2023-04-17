@@ -5,9 +5,9 @@
 
 -----
 [Flea-Scope User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- 18 Msps analog and more for $18!
-> [Flea-Scope GUI](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB Graphical User Interface!
+> [Flea-Scope GUI](https://rtestardi.github.io/usbte/flea-scope.html) -- Web USB Flea-Scope™ Graphical User Interface!
 > <br/>
-> [StickOS-BASIC Deep Dive UI](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB StickOS® BASIC Deep Dive User Interface!
+> [StickOS-BASIC Deep Dive UI](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB Flea-Scope™ StickOS® BASIC Deep Dive User Interface!
 > <br/>
 > [video introduction](https://1drv.ms/v/s!An6qoNgNXmeQhadIj1lNkuvh8B7w3Q?e=Q0UZW3) -- very rough preliminary video introduction to Flea-Scope
 
