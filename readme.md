@@ -18,12 +18,10 @@
 
 -----
 ## Pictures:
-
 - [Bicycle Trip, 2022](https://onedrive.live.com/?authkey=%21ANAjN%2DHKTE96gkc&v=photos&id=F9F5D0088713D32B%21257776&cid=F9F5D0088713D32B)
 - [Campering, 2021](https://1drv.ms/u/s!AivTE4cI0PX5j7IFAozMPVGkdygzaw?e=sx7HMU)
 - [Old Pictures](https://rtestardi.wixsite.com/rtestardi/lily)
 
 -----
 ## Files:
-
 - [vantage.pdf](https://rtestardi.github.io/pages/vantage.pdf) -- When your outdoor lamp with non-replaceable LEDs fails after a couple of years...
