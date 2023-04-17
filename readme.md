@@ -20,4 +20,4 @@
 
 ## Files:
 
-- [vantage.pdf](https://rtestardi.github.io/pages/vantage.pdf)
+- [vantage.pdf](https://rtestardi.github.io/pages/vantage.pdf) -- When your outdoor lamp with non-replaceable LEDs fails after a couple of years...
