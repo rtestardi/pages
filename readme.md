@@ -10,6 +10,7 @@
 > [StickOS-BASIC Deep Dive UI](https://rtestardi.github.io/usbte/stickos-basic.html) -- Web USB Flea-Scope™ StickOS® BASIC Deep Dive User Interface!
 > <br/>
 > [video introduction](https://1drv.ms/v/s!An6qoNgNXmeQhadIj1lNkuvh8B7w3Q?e=Q0UZW3) -- very rough preliminary video introduction to Flea-Scope
+> <br/>
 > [build instructions](https://hackaday.io/project/192598-flea-scope-usb-o-scope-18-msps-13-bom-webusb) -- full build instructions on hackaday.io
 
 -----
