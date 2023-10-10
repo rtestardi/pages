@@ -13,7 +13,7 @@
 > <br/>
 > [build instructions](https://hackaday.io/project/192598-flea-scope-usb-o-scope-18-msps-13-bom-webusb) -- full build instructions, gerbers, firmware, etc., on hackaday.io
 > <br/>
-> [toaster oven controller](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller
+> [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller
 
 -----
 [StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment
