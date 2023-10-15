@@ -2,6 +2,7 @@
 
 -----
 [Calchemy](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic
+> [Dimensional Analysis 101](https://rtestardi.github.io/pages/dimensional.analysis.pdf) -- an introduction to dimensional analysis for students and engineers
 
 -----
 [Flea-Scope™ User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- 18 Msps analog and more for $18!
