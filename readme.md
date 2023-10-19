@@ -1,11 +1,11 @@
 [rtestardi](https://github.com/rtestardi)'s GitHub Pages sites
 
 -----
-[Calchemy](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic
+**[Calchemy](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic**
 > [Dimensional Analysis 101](https://rtestardi.github.io/pages/dimensional.analysis.pdf) -- an introduction to dimensional analysis for students and engineers
 
 -----
-[Flea-Scope™ User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- a low-cost and easy-to-use 18 Msps USB oscilloscope and logic analyzer
+**[Flea-Scope™ User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- a low-cost and easy-to-use 18 Msps USB oscilloscope and logic analyzer**
 > [flea-scope.html](https://rtestardi.github.io/usbte/flea-scope.html) -- Flea-Scope™ Graphical User Interface!
 > <br/>
 > [stickos-basic.html](https://rtestardi.github.io/usbte/stickos-basic.html) -- Flea-Scope™ StickOS® BASIC Deep Dive User Interface!
@@ -19,7 +19,7 @@
 > [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
 
 -----
-[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment
+**[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment**
 > [quickref.v1.90.pdf](https://rtestardi.github.io/StickOS/downloads/quickref.v1.90.pdf) -- StickOS Quick Reference Guide (v1.90)
 > <br/>
 > [2nd place contest entry video](http://www.youtube.com/watch?v=nSgha8qjB3E) -- from the Freescale "Can Your Badge Do This?" contest
