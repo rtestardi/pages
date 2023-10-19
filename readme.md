@@ -1,7 +1,7 @@
 [rtestardi](https://github.com/rtestardi)'s GitHub Pages sites
 
 -----
-**[Calchemy](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic**
+**[Calchemy Units Calculator](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic**
 > [Dimensional Analysis 101](https://rtestardi.github.io/pages/dimensional.analysis.pdf) -- an introduction to dimensional analysis for students and engineers
 
 -----
