@@ -20,7 +20,9 @@
 
 -----
 **[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment**
-> [quickref.v1.90.pdf](https://rtestardi.github.io/StickOS/downloads/quickref.v1.90.pdf) -- StickOS Quick Reference Guide (v1.90)
+> [quickref.v1.90.pdf](https://rtestardi.github.io/StickOS/downloads/quickref.v1.90.pdf) -- StickOS® BASIC Quick Reference Guide (v1.90)
+> <br/>
+> [stickos.v1.90.pdf](https://rtestardi.github.io/StickOS/downloads/stickos.v1.90.pdf) -- StickOS® BASIC User's Guide (v1.90)
 > <br/>
 > [2nd place contest entry video](http://www.youtube.com/watch?v=nSgha8qjB3E) -- from the Freescale "Can Your Badge Do This?" contest
 
