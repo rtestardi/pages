@@ -16,6 +16,8 @@
 > <br/>
 > [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
 > <br/>
+> [simon.pdf](https://rtestardi.github.io/usbte/simon.pdf) -- Build a Simple-Simon Game using Flea-Scope™
+> <br/>
 > [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
 
 -----
