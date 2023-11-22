@@ -6,7 +6,7 @@
 
 -----
 **[Flea-Scope™ User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- a low-cost and easy-to-use 18 Msps USB oscilloscope and logic analyzer**
-> [flea-scope.html](https://rtestardi.github.io/usbte/flea-scope.html) -- Flea-Scope™ Graphical User Interface!
+> [flea-scope.html](https://rtestardi.github.io/usbte/flea-scope.html) -- Flea-Scope™ Graphical User Interface!  ([experimental](https://rtestardi.github.io/usbte/flea-scope.experimental.html))
 > <br/>
 > [stickos-basic.html](https://rtestardi.github.io/usbte/stickos-basic.html) -- Flea-Scope™ StickOS® BASIC Deep Dive User Interface!
 > <br/>
