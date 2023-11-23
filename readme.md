@@ -14,7 +14,7 @@
 > <br/>
 > [video introduction](https://1drv.ms/v/s!An6qoNgNXmeQhadIj1lNkuvh8B7w3Q?e=Q0UZW3) -- very rough preliminary video introduction to Flea-Scope™
 > <br/>
-> [build instructions](https://hackaday.io/project/192598-flea-scope-usb-o-scope-18-msps-13-bom-webusb) -- full build instructions, gerbers, firmware, etc., for Flea-Scope™ on hackaday.io
+> [build instructions](https://www.instructables.com/Flea-Scope-18-Msps-13-BoM-WebUSB/) -- full build instructions, gerbers, firmware, etc., for Flea-Scope™ on instructables.com
 > <br/>
 > [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
 > <br/>
