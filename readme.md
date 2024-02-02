@@ -16,9 +16,9 @@
 > <br/>
 > [build instructions](https://www.instructables.com/Flea-Scope-18-Msps-13-BoM-WebUSB/) -- full build instructions, gerbers, firmware, etc., for Flea-Scope™ on instructables.com, [2nd place contest entry](https://www.instructables.com/contest/fta23/)
 > <br/>
-> [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
-> <br/>
 > [simon.pdf](https://rtestardi.github.io/usbte/simon.pdf) -- Build a Simple-Simon Game using Flea-Scope™
+> <br/>
+> [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
 > <br/>
 > [gadget.pdf](https://rtestardi.github.io/usbte/gadget.pdf) -- Building a WebUSB or Web Serial Gadget
 > <br/>
