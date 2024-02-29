@@ -34,8 +34,8 @@
 
 -----
 ## Pictures:
-- [Bicycle Trip, 2022](https://onedrive.live.com/?authkey=%21ANAjN%2DHKTE96gkc&v=photos&id=F9F5D0088713D32B%21257776&cid=F9F5D0088713D32B)
-- [Campering, 2021](https://1drv.ms/u/s!AivTE4cI0PX5j7IFAozMPVGkdygzaw?e=sx7HMU)
+- [Bicycle Trip, 2022](https://1drv.ms/a/s!AivTE4cI0PX5j91w0CM34cpMT3qCRw)
+- [Campering, 2021](https://1drv.ms/a/s!AivTE4cI0PX5j7IFAozMPVGkdygzaw)
 - [Old Pictures](https://rtestardi.wixsite.com/rtestardi/lily)
 
 -----
