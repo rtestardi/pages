@@ -23,6 +23,7 @@
 > [build instructions](https://www.instructables.com/Flea-Scope-18-Msps-13-BoM-WebUSB/) -- full build instructions, gerbers, firmware, etc., for Flea-Scope™ on instructables.com, [2nd place contest entry](https://www.instructables.com/contest/fta23/)
 > <br/>
 > [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
+> [Buy Flea-Scope™ for $18 at Elecrow shipping in April](https://www.elecrow.com/flea-scopetm-usb-o-scope.html)
 
 -----
 **[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment**
@@ -36,6 +37,9 @@
 ## Pictures:
 - [Bicycle Trip, 2022](https://1drv.ms/a/s!AivTE4cI0PX5j91w0CM34cpMT3qCRw)
 - [Campering, 2021](https://1drv.ms/a/s!AivTE4cI0PX5j7IFAozMPVGkdygzaw)
+- [Gold Hill Inn, 2020](https://1drv.ms/a/s!AivTE4cI0PX5jvNnpWrnIO2rFRALCQ?e=t2bRc0)
+- [Garden, 2020](https://1drv.ms/a/s!AivTE4cI0PX5ju9wcPCYEGFsaeK79Q?e=4eL9hv)
+- [Disney World, 2019](https://1drv.ms/a/s!AivTE4cI0PX5jIxciMizxIAxD1T9Ug?e=H4bgk4)
 - [Old Pictures](https://rtestardi.wixsite.com/rtestardi/lily)
 
 -----
