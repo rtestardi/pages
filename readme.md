@@ -23,6 +23,7 @@
 > [build instructions](https://www.instructables.com/Flea-Scope-18-Msps-13-BoM-WebUSB/) -- full build instructions, gerbers, firmware, etc., for Flea-Scope™ on instructables.com, [2nd place contest entry](https://www.instructables.com/contest/fta23/)
 > <br/>
 > [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
+> <br/>
 > [Buy Flea-Scope™ for $18 at Elecrow shipping in April](https://www.elecrow.com/flea-scopetm-usb-o-scope.html)
 
 -----
