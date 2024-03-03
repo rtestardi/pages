@@ -24,7 +24,7 @@
 > <br/>
 > [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
 
-| [Buy Flea-Scope™ for $18 at Elecrow shipping in April here](https://www.elecrow.com/flea-scopetm-usb-o-scope.html) | [Submit Flea-Scope™ bugs here](https://github.com/rtestardi/usbte/issues) |
+| [Buy Flea-Scope™ for $18 at Elecrow shipping in April here](https://www.elecrow.com/flea-scopetm-usb-o-scope.html) | [Submit Flea-Scope™ questions or bugs here](https://github.com/rtestardi/usbte/issues) |
 
 -----
 **[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment**
