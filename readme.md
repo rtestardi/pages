@@ -28,7 +28,7 @@
 > <br/>
 > [Submit Flea-Scope™ bugs here](https://github.com/rtestardi/usbte/issues)
 > <br/>
-> [Buy Flea-Scope™ for $18 at Elecrow shipping in April](https://www.elecrow.com/flea-scopetm-usb-o-scope.html)
+> [Buy Flea-Scope™ for $18 at Elecrow shipping in April here](https://www.elecrow.com/flea-scopetm-usb-o-scope.html)
 
 -----
 **[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment**
