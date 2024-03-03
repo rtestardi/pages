@@ -27,7 +27,7 @@
 > &nbsp;
 > <br/>
 > [Buy Flea-Scope™ for $18 at Elecrow shipping in April here](https://www.elecrow.com/flea-scopetm-usb-o-scope.html)
-> <br/>
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 > [Submit Flea-Scope™ bugs here](https://github.com/rtestardi/usbte/issues)
 
 -----
