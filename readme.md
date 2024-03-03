@@ -14,6 +14,8 @@
 > <br/>
 > [video introduction](https://1drv.ms/v/s!An6qoNgNXmeQhadIj1lNkuvh8B7w3Q?e=Q0UZW3) -- very rough preliminary video introduction to Flea-Scope™
 > <br/>
+> [dream.pdf](https://rtestardi.github.io/usbte/dream.pdf) -- Career fair document: Flea-Scope™, from dream to reality!
+> <br/>
 > [simon.pdf](https://rtestardi.github.io/usbte/simon.pdf) -- Build a Simple-Simon Game using Flea-Scope™
 > <br/>
 > [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
