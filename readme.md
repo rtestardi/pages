@@ -24,6 +24,8 @@
 > <br/>
 > [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
 > <br/>
+> [Submit Flea-Scope™ bugs here](https://github.com/rtestardi/usbte/issues)
+> <br/>
 > [Buy Flea-Scope™ for $18 at Elecrow shipping in April](https://www.elecrow.com/flea-scopetm-usb-o-scope.html)
 
 -----
