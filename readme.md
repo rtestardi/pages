@@ -22,6 +22,10 @@
 > <br/>
 > [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
 > <br/>
+> [pcba.pdf](https://rtestardi.github.io/usbte/pcba.pdf) -- Flea-Scope™ Parts, Assembly, and Test
+> <br/>
+> [pcbafd.pdf](https://rtestardi.github.io/usbte/schools.pdf) -- PCBA for Dummies (getting over your fear of online printed circuit board assembly!)
+> <br/>
 > [schools.pdf](https://rtestardi.github.io/usbte/schools.pdf) -- Flea-Scope™ for Education (1-pager)
 > <br/>
 > [simon.pdf](https://rtestardi.github.io/usbte/simon.pdf) -- Build a Simple-Simon Game using Flea-Scope™
