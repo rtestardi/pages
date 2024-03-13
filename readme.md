@@ -16,9 +16,6 @@
 > <br/>
 > [build instructions](https://www.instructables.com/Flea-Scope-18-Msps-13-BoM-WebUSB/) -- full build instructions, gerbers, firmware, etc., for Flea-Scope™ on instructables.com
 
-> [2nd place contest entry on pcbway.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png)
-> [2nd place contest entry on instructables.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png)
-
 > [dream.pdf](https://rtestardi.github.io/usbte/dream.pdf) -- Campion Academy career fair document: Flea-Scope™, from dream to reality!
 > <br/>
 > [gadget.pdf](https://rtestardi.github.io/usbte/gadget.pdf) -- Building a WebUSB or Web Serial Gadget
@@ -31,6 +28,7 @@
 > <br/>
 > [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
 
+| [2nd place contest entry on pcbway.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png) | [2nd place contest entry on instructables.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png) |
 | [*Buy Flea-Scope™ for $18 at Elecrow (shipping in April) here*](https://www.elecrow.com/flea-scopetm-usb-o-scope.html) | [*Submit Flea-Scope™ questions or bugs here*](https://github.com/rtestardi/usbte/issues) |
 
 -----
