@@ -28,7 +28,7 @@
 > <br/>
 > [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
 
-| [2nd place contest entry on pcbway.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png) | [2nd place contest entry on instructables.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png) |
+| [2nd place contest entry on pcbway.com](https://www.pcbway.com/activity/6th-project-design-contest.html) ![](https://rtestardi.github.io/resources/2nd50.png) | [2nd place contest entry on instructables.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png) |
 | [*Buy Flea-Scope™ for $18 at Elecrow (shipping in April) here*](https://www.elecrow.com/flea-scopetm-usb-o-scope.html) | [*Submit Flea-Scope™ questions or bugs here*](https://github.com/rtestardi/usbte/issues) |
 
 -----
