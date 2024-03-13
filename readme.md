@@ -24,7 +24,7 @@
 > <br/>
 > [pcba.pdf](https://rtestardi.github.io/usbte/pcba.pdf) -- Flea-Scope™ Parts, Assembly, and Test
 > <br/>
-> [pcbafd.pdf](https://rtestardi.github.io/usbte/schools.pdf) -- PCBA for Dummies (getting over your fear of online printed circuit board assembly!)
+> [pcbafd.pdf](https://rtestardi.github.io/usbte/pcbafd.pdf) -- PCBA for Dummies (getting over your fear of online printed circuit board assembly!)
 > <br/>
 > [schools.pdf](https://rtestardi.github.io/usbte/schools.pdf) -- Flea-Scope™ for Education (1-pager)
 > <br/>
