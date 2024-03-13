@@ -16,8 +16,8 @@
 > <br/>
 > [build instructions](https://www.instructables.com/Flea-Scope-18-Msps-13-BoM-WebUSB/) -- full build instructions, gerbers, firmware, etc., for Flea-Scope™ on instructables.com
 
-> [2nd place contest entry on pcbway.com](https://www.instructables.com/contest/fta23/) ![](https://github.com/rtestardi/resources/blob/master/2nd50.png)
-> [2nd place contest entry on instructables.com](https://www.instructables.com/contest/fta23/) ![](https://github.com/rtestardi/resources/blob/master/2nd50.png)
+> [2nd place contest entry on pcbway.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png)
+> [2nd place contest entry on instructables.com](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png)
 
 > [dream.pdf](https://rtestardi.github.io/usbte/dream.pdf) -- Campion Academy career fair document: Flea-Scope™, from dream to reality!
 > <br/>
@@ -39,7 +39,7 @@
 > <br/>
 > [stickos.v1.90.pdf](https://rtestardi.github.io/StickOS/downloads/stickos.v1.90.pdf) -- StickOS® BASIC User's Guide (v1.90)
 
-> [2nd place contest entry video](http://www.youtube.com/watch?v=nSgha8qjB3E) ![](https://github.com/rtestardi/resources/blob/master/2nd50.png) -- from the Freescale "Can Your Badge Do This?" contest
+> [2nd place contest entry video](http://www.youtube.com/watch?v=nSgha8qjB3E) ![](https://rtestardi.github.io/resources/2nd50.png) -- from the Freescale "Can Your Badge Do This?" contest
 
 -----
 ## Pictures:
