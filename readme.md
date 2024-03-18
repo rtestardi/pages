@@ -10,6 +10,7 @@
 ([manual](https://rtestardi.github.io/usbte/flea-scope.manual.html))
 > <br/>
 > [stickos-basic.html](https://rtestardi.github.io/usbte/stickos-basic.html) -- Flea-Scope™ StickOS® BASIC Deep Dive User Interface!
+([manual](https://rtestardi.github.io/usbte/stickos-basic.manual.html))
 > <br/>
 > [video introduction](https://1drv.ms/v/s!An6qoNgNXmeQhadIj1lNkuvh8B7w3Q?e=Q0UZW3) -- very rough preliminary video introduction to Flea-Scope™
 > <br/>
