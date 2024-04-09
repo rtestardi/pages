@@ -1,0 +1,27 @@
+import sys
+import time
+import platform
+import threading
+
+def getchar():
+    import tty, termios, sys
+    fd = sys.stdin.fileno()
+    old_settings = termios.tcgetattr(fd)
+    try:
+        tty.setraw(sys.stdin.fileno())
+        ch = sys.stdin.read(1)
+    finally:
+        termios.tcsetattr(fd, termios.TCSADRAIN, old_settings)
+    print("you pressed '" + ch + "'\r")
+    return ch
+
+def getcharThread():
+    while getchar() != 'q':
+        time.sleep(0.1)
+    print("thread exit\r")
+
+t2 = threading.Thread(target = getcharThread)
+t2.daemon = True
+t2.start()
+
+time.sleep(2)
