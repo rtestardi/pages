@@ -49,6 +49,7 @@
 
 -----
 ## Files:
+- [math.pdf](https://rtestardi.github.io/pages/math.pdf) -- Permutations and Combinations and Probabily Algebra-II sub notes
 - [gadget.pdf](https://rtestardi.github.io/usbte/gadget.pdf) -- Building a WebUSB or Web Serial Gadget
 - [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
 - [pcba.pdf](https://rtestardi.github.io/usbte/pcba.pdf) -- Flea-Scope™ Parts, Assembly, and Test
