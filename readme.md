@@ -2,7 +2,7 @@
 
 -----
 **Tutoring**
-- [math.pdf](https://rtestardi.github.io/pages/math.pdf) -- Permutations and Combinations and Probabily Algebra-II sub notes
+> [math.pdf](https://rtestardi.github.io/pages/math.pdf) -- Permutations and Combinations and Probabily Algebra-II sub notes
 
 -----
 **[Calchemy Units Calculator](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic**
@@ -36,7 +36,7 @@
 
 -----
 **Mosquito-Scope**
-- I am gathering requirements for the next version of Flea-Scope now, including multiple input amplification ranges (for measuring sub-millivolt signals), a USB-C connector, GUI support for multiple channels in one web-page, 0.8" PCB width (down from 1.0"), etc.
+> I am gathering requirements for the next version of Flea-Scope now, including multiple input amplification ranges (for measuring sub-millivolt signals), a USB-C connector, GUI support for multiple channels in one web-page, 0.8" PCB width (down from 1.0"), etc.
 
 -----
 **[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment**
