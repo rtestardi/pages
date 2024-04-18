@@ -35,7 +35,7 @@
 | [*Buy Flea-Scope™ for $18 at Elecrow (shipping in April) here*](https://www.elecrow.com/flea-scopetm-usb-o-scope.html) | [*Submit Flea-Scope™ questions or bugs here*](https://github.com/rtestardi/usbte/issues) |
 
 -----
-**Mosquito-Scope**
+**Mosquito-Scope™ (or Squito-Scope™)**
 > I am gathering requirements for the next version of Flea-Scope now, including multiple input amplification ranges (for measuring sub-millivolt signals), a USB-C connector, GUI support for multiple channels in one web-page, 0.8" PCB width (down from 1.0"), etc.
 
 -----
