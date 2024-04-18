@@ -35,6 +35,10 @@
 | [*Buy Flea-Scope™ for $18 at Elecrow (shipping in April) here*](https://www.elecrow.com/flea-scopetm-usb-o-scope.html) | [*Submit Flea-Scope™ questions or bugs here*](https://github.com/rtestardi/usbte/issues) |
 
 -----
+**Mosquito-Scope**
+- I am gathering requirements for the next version of Flea-Scope now, including multiple input amplification ranges (for measuring sub-millivolt signals), a USB-C connector, GUI support for multiple channels in one web-page, 0.8" PCB width (down from 1.0"), etc.
+
+-----
 **[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment**
 > [quickref.v1.90.pdf](https://rtestardi.github.io/StickOS/downloads/quickref.v1.90.pdf) -- StickOS® BASIC Quick Reference Guide (v1.90)
 > <br/>
