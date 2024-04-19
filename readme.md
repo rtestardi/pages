@@ -1,10 +1,6 @@
 [rtestardi](https://github.com/rtestardi)'s GitHub Pages sites
 
 -----
-**Tutoring**
-> [math.pdf](https://rtestardi.github.io/pages/math.pdf) -- Permutations and Combinations and Probabily Algebra-II sub notes
-
------
 **[Calchemy Units Calculator](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic**
 > [Dimensional Analysis 101](https://rtestardi.github.io/pages/dimensional.analysis.pdf) -- an introduction to dimensional analysis for students and engineers
 
@@ -58,6 +54,7 @@
 -----
 ## Files:
 - [gadget.pdf](https://rtestardi.github.io/usbte/gadget.pdf) -- Building a WebUSB or Web Serial Gadget
+- [math.pdf](https://rtestardi.github.io/pages/math.pdf) -- Permutations and Combinations and Probabily Algebra-II sub notes
 - [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
 - [pcba.pdf](https://rtestardi.github.io/usbte/pcba.pdf) -- Flea-Scope™ Parts, Assembly, and Test
 - [pcbafd.pdf](https://rtestardi.github.io/usbte/pcbafd.pdf) -- PCBA for Dummies (getting over your fear of online printed circuit board assembly!)
