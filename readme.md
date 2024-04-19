@@ -16,8 +16,6 @@
 > <br/>
 > [build instructions](https://www.instructables.com/Flea-Scope-18-Msps-13-BoM-WebUSB/) -- full build instructions, gerbers, firmware, etc., for Flea-Scope™ on instructables.com
 
-> [dream.pdf](https://rtestardi.github.io/usbte/dream.pdf) -- Campion Academy career fair document: Flea-Scope™, from dream to reality!
-> <br/>
 > [schools.pdf](https://rtestardi.github.io/usbte/schools.pdf) -- Flea-Scope™ for Education (1-pager)
 > <br/>
 > [simon.pdf](https://rtestardi.github.io/usbte/simon.pdf) -- Build a Simple-Simon Game using Flea-Scope™
@@ -53,6 +51,7 @@
 
 -----
 ## Files:
+- [dream.pdf](https://rtestardi.github.io/usbte/dream.pdf) -- Campion Academy career fair document: Flea-Scope™, from dream to reality!
 - [gadget.pdf](https://rtestardi.github.io/usbte/gadget.pdf) -- Building a WebUSB or Web Serial Gadget
 - [math.pdf](https://rtestardi.github.io/pages/math.pdf) -- Permutations and Combinations and Probabily Algebra-II sub notes
 - [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
