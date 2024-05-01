@@ -26,7 +26,7 @@
 > <br/>
 > [2nd place contest entry winner](https://www.instructables.com/contest/fta23/) ![](https://rtestardi.github.io/resources/2nd50.png) -- from the Instructables "First Time Author Contest"
 
-| [*Buy Flea-Scope™ for $18 at Elecrow (shipping in April) here*](https://www.elecrow.com/flea-scopetm-usb-o-scope.html) | [*Submit Flea-Scope™ questions or bugs here*](https://github.com/rtestardi/usbte/issues) |
+| [*Buy Flea-Scope™ for $18 at Elecrow here*](https://www.elecrow.com/flea-scopetm-usb-o-scope.html) | [*Submit Flea-Scope™ questions or bugs here*](https://github.com/rtestardi/usbte/issues) |
 
 -----
 **Mosquito-Scope™ (or Squito-Scope™)**
