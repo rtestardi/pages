@@ -1,52 +1,59 @@
   10 // declare ram variables
   20 dim i, n, leds, delay, last_msecs
 
-  30 // declare pin variable for infrared sensor input
-  40 dim ir as pin b8 for digital input inverted
+  30 // declare pin variable for buzzer output
+  40 dim buzzer as pin a8 for frequency output
 
-  50 // declare pin variables for 12 LED outputs
-  60 dim led[0] as pin b0 for digital output
-  70 dim led[1] as pin b1 for digital output
-  80 dim led[2] as pin b2 for digital output
-  90 dim led[3] as pin b3 for digital output
- 100 dim led[4] as pin b4 for digital output
- 110 dim led[5] as pin b5 for digital output
- 120 dim led[6] as pin a0 for digital output
- 130 dim led[7] as pin a1 for digital output
- 140 dim led[8] as pin a2 for digital output
- 150 dim led[9] as pin a3 for digital output
- 160 dim led[10] as pin a4 for digital output
- 170 dim led[11] as pin a5 for digital output
+  50 // declare pin variable for infrared sensor input
+  60 dim ir as pin b8 for digital input inverted
 
- 180 // when the infrared sensor is active and it has been
- 190 // at least 1 second since the last time, gosub remote
- 200 on ir&&last_msecs<msecs-1000 do gosub remote
+  70 // declare pin variables for 12 LED outputs
+  80 dim led[0] as pin b0 for digital output
+  90 dim led[1] as pin b1 for digital output
+ 100 dim led[2] as pin b2 for digital output
+ 110 dim led[3] as pin b3 for digital output
+ 120 dim led[4] as pin b4 for digital output
+ 130 dim led[5] as pin b5 for digital output
+ 140 dim led[6] as pin a0 for digital output
+ 150 dim led[7] as pin a1 for digital output
+ 160 dim led[8] as pin a2 for digital output
+ 170 dim led[9] as pin a3 for digital output
+ 180 dim led[10] as pin a4 for digital output
+ 190 dim led[11] as pin a5 for digital output
 
- 210 // we have 12 leds; start with a blink delay of 200ms
- 220 leds = 12, delay = 200
+ 200 // when the infrared sensor is active and it has been
+ 210 // at least 1 second since the last time, gosub remote
+ 220 on ir&&last_msecs<msecs-1000 do gosub remote
 
- 230 // ### main loop ###
- 240 while 1 do
- 250   // turn on one LED and turn off all others
- 260   for i = 0 to leds-1
- 270     led[i] = i==n
- 280   next 
- 290   // sleep for the blink delay
- 300   sleep delay ms
- 310   // advance to the next LED
- 320   n = (n+1)%leds
- 330 endwhile 
- 340 end 
+ 230 // we have 12 leds; start with a blink delay of 200ms
+ 240 leds = 12, delay = 200
 
- 350 // ### remote ###
- 360 sub remote
- 370   // record the last time we saw the infrared sensor active
- 380   last_msecs = msecs
- 390   // reduce the blink delay
- 400   delay = delay/2
- 410   // if the blink delay is too short...
- 420   if delay<10 then
- 430     // reset the blink delay to 200ms
- 440     delay = 200
- 450   endif 
- 460 endsub 
+ 250 // ### main loop ###
+ 260 while 1 do
+ 270   // turn on one LED and turn off all others
+ 280   for i = 0 to leds-1
+ 290     led[i] = i==n
+ 300   next 
+ 310   // make a short beep
+ 320   buzzer = 440
+ 330   sleep 10 ms
+ 340   buzzer = 0
+ 350   // sleep for the balance of the blink delay
+ 360   sleep delay-10 ms
+ 370   // advance to the next LED
+ 380   n = (n+1)%leds
+ 390 endwhile 
+ 400 end 
+
+ 410 // ### remote ###
+ 420 sub remote
+ 430   // record the last time we saw the infrared sensor active
+ 440   last_msecs = msecs
+ 450   // reduce the blink delay
+ 460   delay = delay/2
+ 470   // if the blink delay is too short...
+ 480   if delay<10 then
+ 490     // reset the blink delay to 200ms
+ 500     delay = 200
+ 510   endif 
+ 520 endsub
