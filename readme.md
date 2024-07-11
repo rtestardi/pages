@@ -5,7 +5,7 @@
 > [Dimensional Analysis 101](https://rtestardi.github.io/pages/dimensional.analysis.pdf) -- an introduction to dimensional analysis for students and engineers
 
 -----
-**[Flea-Scope™ User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- a low-cost and easy-to-use 18 Msps USB oscilloscope and logic analyzer**
+**[Flea-Scope™ User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- a very low-cost and easy-to-use 18 Msps USB oscilloscope and logic analyzer**
 > [flea-scope.html](https://rtestardi.github.io/usbte/flea-scope.html) -- Flea-Scope™ Graphical User Interface!
 ([manual WebUSB vs. Web Serial](https://rtestardi.github.io/usbte/flea-scope.manual.html))
 > <br/>
