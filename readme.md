@@ -32,7 +32,7 @@
 
 -----
 **Mosquito-Scope™ (or Squito-Scope™)**
-> I am gathering requirements for the next version of Flea-Scope now, including multiple input amplification ranges (for measuring sub-millivolt signals), 80 Msps using dsPIC33A, BLE, a USB-C connector, GUI support for multiple channels in one web-page, 0.8" PCB width (down from 1.0"), etc.
+> I am gathering requirements for the next version of Flea-Scope now, including multiple input amplification ranges (for measuring sub-millivolt signals), 80 Msps using dsPIC33A (or possibly 2 channels at 40 Msps), BLE, a USB-C connector, GUI support for multiple channels in one web-page, 0.8" PCB width (down from 1.0"), etc.
 
 -----
 **[StickOS Website](https://rtestardi.github.io/StickOS) -- StickOS® BASIC -- an entirely MCU-resident patented interactive programming environment**
