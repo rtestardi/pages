@@ -59,6 +59,7 @@
 - [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
 - [pcba.pdf](https://rtestardi.github.io/usbte/pcba.pdf) -- Flea-Scope™ Parts, Assembly, and Test
 - [pcbafd.pdf](https://rtestardi.github.io/usbte/pcbafd.pdf) -- PCBA for Dummies (getting over your fear of online printed circuit board assembly!)
+- [python1.pdf](https://rtestardi.github.io/pages/python1.pdf) -- BICS Python notes #1
 - [vantage.pdf](https://rtestardi.github.io/pages/vantage.pdf) -- When your outdoor lamp with non-replaceable LEDs fails after a couple of years...
 
 -----
