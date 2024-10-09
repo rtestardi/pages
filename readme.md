@@ -20,9 +20,9 @@
 > <br/>
 > [simon.pdf](https://rtestardi.github.io/usbte/simon.pdf) -- Build a Simple-Simon Game using Flea-Scope™
 > <br/>
-> [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
-> <br/>
 > [morse.pdf](https://rtestardi.github.io/usbte/morse.pdf) -- Build a simple Morse Code Generator using Flea-Scope™
+> <br/>
+> [toaster.pdf](https://rtestardi.github.io/usbte/toaster.pdf) -- Build a Simple Toaster Oven Temperature Profile Controller using Flea-Scope™
 
 > [2nd place contest entry winner](https://www.pcbway.com/activity/6th-project-design-contest.html) ![](https://rtestardi.github.io/resources/2nd50.png) -- from the Pcbway "6th Project Design Contest"
 > <br/>
