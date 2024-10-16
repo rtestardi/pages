@@ -1,6 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- See: https://rtestardi.github.io/pages/bounce.html -->
 
 <head>
 </head>
@@ -12,7 +13,6 @@
 <script>
 'use strict';
 
-var canvas;
 var ctx;
 
 var x = 0;  // the x position of the ball
@@ -54,7 +54,7 @@ function Bounce()
 function Body()
 {
     // find out drawing canvas context
-    canvas = document.getElementById('canvas');
+    var canvas = document.getElementById('canvas');
     ctx = canvas.getContext('2d');
 
     // start drawing the bouncing ball
