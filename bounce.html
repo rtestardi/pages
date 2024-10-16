@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+</head>
+
+<body onload='Body()'>
+
+<canvas id="canvas" width=512 height=256></canvas>
+
+<script>
+'use strict';
+
+var canvas;
+var ctx;
+
+var x = 0;  // the x position of the ball
+var y = 0;  // the y position of the ball
+var xv = 1;  // the x velocity of the ball
+var yv = 1;  // the y velociry of the ball
+
+var width = 509;  // the width of the playing field
+var height = 251;  // the height of the playing field
+
+function Bounce()
+{
+   // if we're going out-of-bounds in x...
+    if (x+xv < 0 || x+xv >= width) { 
+        // bounce the x velocity
+        xv = -xv;
+    }
+
+    // if we're going out-of-bounds in y...
+    if (y+yv < 0 || y+yv >= height) {
+        // bounce the y velocity
+        yv = -yv;
+    }
+
+    // move the ball in x and y according to the x and y velocities
+    x += xv;
+    y += yv;
+
+    // draw the ball
+    ctx.beginPath();
+    ctx.arc(x, y, 4, 0, 2*Math.PI, false);
+    ctx.fill();
+
+    // run again in a millisecond
+    setTimeout(Bounce, 1);
+}
+
+// the user loaded the webpage; start the program
+function Body()
+{
+    // find out drawing canvas context
+    canvas = document.getElementById('canvas');
+    ctx = canvas.getContext('2d');
+
+    // start drawing the bouncing ball
+    setTimeout(Bounce, 1);
+}
+
+</script>
+</body>
+</html>
