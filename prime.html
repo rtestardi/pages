@@ -3,9 +3,6 @@
 
 <!-- See: https://rtestardi.github.io/pages/prime.html -->
 
-<head>
-</head>
-
 <body>
 
 <canvas id="canvas" width=512 height=256></canvas>
@@ -41,8 +38,7 @@ function GraphPrimes()
    var n;
    var max = Number(document.getElementById('max').value);
 
-   var canvas = document.getElementById('canvas');
-   ctx = canvas.getContext('2d');
+   ctx = document.getElementById('canvas').getContext('2d');
 
    n = 0;
    var points = [];
