@@ -6,28 +6,28 @@
 <head>
 </head>
 
-<body onload='Body()'>
+<body>
 
 <canvas id="canvas" width=512 height=256></canvas>
+<p>Max:<input id='max' onchange="GraphPrimes()">
 <p id=details>
 
 <script>
 'use strict';
 
-var max = 100000;
 var ctx;
 
-function point(x, y)
+function drawpoint(x, y)
 {
     ctx.beginPath();
-    ctx.arc(x, y, 2, 0, 2*Math.PI, false);
+    ctx.arc(Math.trunc(x), Math.trunc(y), 2, 0, 2*Math.PI, false);
     ctx.fill();
 }
 
 function isprime(n)
 {
     var i;
-    for (i = 2; i < n; i++) {
+    for (i = 2; i < Math.trunc(Math.sqrt(n)+1); i++) {
         if (n%i == 0) {
             return false;
         }
@@ -39,28 +39,29 @@ function GraphPrimes()
 {
    var i;
    var n;
+   var max = Number(document.getElementById('max').value);
+
+   var canvas = document.getElementById('canvas');
+   ctx = canvas.getContext('2d');
+
    n = 0;
+   var points = [];
    for (i = 0; i < max; i++) {
       if (isprime(i)) {
           n++;
       }
-      if (i%(Math.trunc(max/512)) == 0) {
-        point(Math.trunc(i/(max/512)), 256-(n/100));
+      if (i%(Math.trunc((max+511)/512)) == 0) {
+        points.push({x: i, y: n});
       }
    }
 
-   var details = document.getElementById('details');
-   details.innerHTML = "max = " + max + " n = " + n;
-}
+   // i is our max x value and n is our max y value; scale the graph
+   var j;
+   for (j = 0; j < points.length; j++) {
+       drawpoint(points[j].x*512/i, 256-points[j].y*256/n);
+   }
 
-// the user loaded the webpage; start the program
-function Body()
-{
-    // find out drawing canvas context
-    var canvas = document.getElementById('canvas');
-    ctx = canvas.getContext('2d');
-
-   setTimeout(GraphPrimes, 1);
+   document.getElementById('details').innerHTML = "max = " + max + " n = " + n + " max/n = " + max/n;
 }
 
 </script>
