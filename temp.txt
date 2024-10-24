@@ -1,59 +1,49 @@
-  10 // declare ram variables
-  20 dim i, n, leds, delay, last_msecs
+public enum TargetType {
+    AprilTags,
+    Notes
+};
 
-  30 // declare pin variable for buzzer output
-  40 dim buzzer as pin a8 for frequency output
 
-  50 // declare pin variable for infrared sensor input
-  60 dim ir as pin b8 for digital input inverted
+TargetType targetType = Notes;
 
-  70 // declare pin variables for 12 LED outputs
-  80 dim led[0] as pin b0 for digital output
-  90 dim led[1] as pin b1 for digital output
- 100 dim led[2] as pin b2 for digital output
- 110 dim led[3] as pin b3 for digital output
- 120 dim led[4] as pin b4 for digital output
- 130 dim led[5] as pin b5 for digital output
- 140 dim led[6] as pin a0 for digital output
- 150 dim led[7] as pin a1 for digital output
- 160 dim led[8] as pin a2 for digital output
- 170 dim led[9] as pin a3 for digital output
- 180 dim led[10] as pin a4 for digital output
- 190 dim led[11] as pin a5 for digital output
 
- 200 // when the infrared sensor is active and it has been
- 210 // at least 1 second since the last time, gosub remote
- 220 on ir&&last_msecs<msecs-1000 do gosub remote
+// pick the spatially lowest apriltag or note as selected by the user
+int lowestI;
+double lowestTync = 100;  // larger than any possible tync
+if (targetType == AprilTags) {
+    // track apriltags
+    RawFiducial[] fiducials = getRawFiducials("limelight");
+    // find the fiducial with highest tync value (which is spatially lowest)
+    for (int i = 0; i < fiducials.length; i++) {
+        if (fiducials[i].tync < lowestTync) {
+            lowestTync = fiducials[i].tync;
+            lowestI = i;
+        }
+    }
+    // record the TX, TY, and TA from the fiducial with highest tync value
+    TX = fiducials[lowestI].txnc;
+    TY = fiducials[lowestI].tync;
+    TA = fiducials[lowestI].ta;
+} else {
+    // track notes
+    RawDetection[] detections = getRawDetections("limelight");
+    // find the detection with highest tync value (which is spatially lowest)
+    for (int i = 0; i < detections.length; i++) {
+        if (detections [i].tync < lowestTync) {
+            lowestTync = detections [i].tync;
+            lowestI = i;
+        }
+    }
+    // record the TX, TY, and TA from the detection with highest tync value
+    TX = detections [lowestI].txnc;
+    TY = detections [lowestI].tync;
+    TA = detections [lowestI].ta;
+}
 
- 230 // we have 12 leds; start with a blink delay of 200ms
- 240 leds = 12, delay = 200
+ 
+public enum Operation {
+    teleop,
+    seeking,
+    fullstop
+}
 
- 250 // ### main loop ###
- 260 while 1 do
- 270   // turn on one LED and turn off all others
- 280   for i = 0 to leds-1
- 290     led[i] = i==n
- 300   next 
- 310   // make a short beep
- 320   buzzer = 440
- 330   sleep 10 ms
- 340   buzzer = 0
- 350   // sleep for the balance of the blink delay
- 360   sleep delay-10 ms
- 370   // advance to the next LED
- 380   n = (n+1)%leds
- 390 endwhile 
- 400 end 
-
- 410 // ### remote ###
- 420 sub remote
- 430   // record the last time we saw the infrared sensor active
- 440   last_msecs = msecs
- 450   // reduce the blink delay
- 460   delay = delay/2
- 470   // if the blink delay is too short...
- 480   if delay<10 then
- 490     // reset the blink delay to 200ms
- 500     delay = 200
- 510   endif 
- 520 endsub
