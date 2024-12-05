@@ -1,49 +1,83 @@
-public enum TargetType {
-    AprilTags,
-    Notes
-};
+public class DriveSubsystem extends SubsystemBase {
+  public DriveSubsystem() {
+      // Configure AutoBuilder
+      AutoBuilder.configureHolonomic(
+        this::getPose, 
+        this::resetOdometry, 
+        this::getSpeeds, 
+        this::driveRobotRelative, 
+        Constants.DriveConstants.pathFollowerConfig,
+        () -> {
+            // Boolean supplier that controls when the path will be mirrored for the red alliance
+            // This will flip the path being followed to the red side of the field.
+            // THE ORIGIN WILL REMAIN ON THE BLUE SIDE
 
-
-TargetType targetType = Notes;
-
-
-// pick the spatially lowest apriltag or note as selected by the user
-int lowestI;
-double lowestTync = 100;  // larger than any possible tync
-if (targetType == AprilTags) {
-    // track apriltags
-    RawFiducial[] fiducials = getRawFiducials("limelight");
-    // find the fiducial with highest tync value (which is spatially lowest)
-    for (int i = 0; i < fiducials.length; i++) {
-        if (fiducials[i].tync < lowestTync) {
-            lowestTync = fiducials[i].tync;
-            lowestI = i;
-        }
-    }
-    // record the TX, TY, and TA from the fiducial with highest tync value
-    TX = fiducials[lowestI].txnc;
-    TY = fiducials[lowestI].tync;
-    TA = fiducials[lowestI].ta;
-} else {
-    // track notes
-    RawDetection[] detections = getRawDetections("limelight");
-    // find the detection with highest tync value (which is spatially lowest)
-    for (int i = 0; i < detections.length; i++) {
-        if (detections [i].tync < lowestTync) {
-            lowestTync = detections [i].tync;
-            lowestI = i;
-        }
-    }
-    // record the TX, TY, and TA from the detection with highest tync value
-    TX = detections [lowestI].txnc;
-    TY = detections [lowestI].tync;
-    TA = detections [lowestI].ta;
+            var alliance = DriverStation.getAlliance();
+            if (alliance.isPresent()) {
+                return alliance.get() == DriverStation.Alliance.Red;
+            }
+            return false;
+        },
+        this
+      );
+  }
 }
 
  
-public enum Operation {
-    teleop,
-    seeking,
-    fullstop
+  public Pose2d getPose() {
+    Pose2d pose = m_odometry.getPoseMeters();
+    return pose;
+  }
+  
+  public void resetOdometry(Pose2d pose) {
+    m_odometry.resetPosition(
+        Rotation2d.fromDegrees(m_gyro.getAngle() * (DriveConstants.kGyroReversed ? -1.0 : 1.0)),
+
+        //bIrobot Note: IMUAxis.kz was NOT in the parens above in the 2023 code
+        //end note
+
+        new SwerveModulePosition[] {
+            m_frontLeft.getPosition(),
+            m_frontRight.getPosition(),
+            m_rearLeft.getPosition(),
+            m_rearRight.getPosition()
+        },
+        pose);
+  }
+  
+  public ChassisSpeeds getSpeeds() {
+    return Constants.DriveConstants.kDriveKinematics.toChassisSpeeds(
+      m_frontLeft.getState(), m_frontRight.getState(), m_rearLeft.getState(), m_rearRight.getState()
+    );
+  }
+
+  public void driveRobotRelative(ChassisSpeeds robotRelativeSpeeds) {
+    drive(robotRelativeSpeeds.vxMetersPerSecond/Constants.DriveConstants.kMaxSpeedMetersPerSecond,
+          robotRelativeSpeeds.vyMetersPerSecond/Constants.DriveConstants.kMaxSpeedMetersPerSecond,
+          robotRelativeSpeeds.omegaRadiansPerSecond/Constants.DriveConstants.kMaxAngularSpeed,
+          false, true);
+  }
+
+
+
+
+
+
+
+public RobotContainer() {
+    // Calls the pathplanner file
+    public Command getAutonomousCommand() {
+        return autoChooser.getSelected();
+    }
+}
+
+public class Robot extends TimedRobot {
+  public void autonomousInit() {
+    m_autonomousCommand = m_robotContainer.getAutonomousCommand();
+    if (m_autonomousCommand != null) {
+      System.out.println("WE HAVE A Command!!!");
+      m_autonomousCommand.schedule();
+    }
+  }
 }
 
