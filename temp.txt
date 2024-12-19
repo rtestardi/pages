@@ -1,83 +1,42 @@
-public class DriveSubsystem extends SubsystemBase {
-  public DriveSubsystem() {
-      // Configure AutoBuilder
-      AutoBuilder.configureHolonomic(
-        this::getPose, 
-        this::resetOdometry, 
-        this::getSpeeds, 
-        this::driveRobotRelative, 
-        Constants.DriveConstants.pathFollowerConfig,
-        () -> {
-            // Boolean supplier that controls when the path will be mirrored for the red alliance
-            // This will flip the path being followed to the red side of the field.
-            // THE ORIGIN WILL REMAIN ON THE BLUE SIDE
+// https://rtestardi.github.io/pages/temp.txt
 
-            var alliance = DriverStation.getAlliance();
-            if (alliance.isPresent()) {
-                return alliance.get() == DriverStation.Alliance.Red;
+public findNoteExecute()
+{
+    double TA = LimelightHelpers.getTA("limelight");
+    double TX = LimelightHelpers.getTX("limelight");
+    double TY = LimelightHelpers.getTY("limelight");
+
+    ingestModule.startIngesting(); // is this needed?
+
+    //if seeing target
+    if (TA != 0) { 
+        //if target is dead ahead
+        if (Math.abs(TX)<5) {
+            //if target is too close 
+            if (TA > 5.3) {
+                System.out.println("Stop " + TA);
+                robotDrive.drive(0, 0, 0, false, true);
+            } else {
+                System.out.println("Go forward " + TA);
+                robotDrive.drive(0.1, 0, -TX/40, false, true);
             }
-            return false;
-        },
-        this
-      );
-  }
-}
-
- 
-  public Pose2d getPose() {
-    Pose2d pose = m_odometry.getPoseMeters();
-    return pose;
-  }
-  
-  public void resetOdometry(Pose2d pose) {
-    m_odometry.resetPosition(
-        Rotation2d.fromDegrees(m_gyro.getAngle() * (DriveConstants.kGyroReversed ? -1.0 : 1.0)),
-
-        //bIrobot Note: IMUAxis.kz was NOT in the parens above in the 2023 code
-        //end note
-
-        new SwerveModulePosition[] {
-            m_frontLeft.getPosition(),
-            m_frontRight.getPosition(),
-            m_rearLeft.getPosition(),
-            m_rearRight.getPosition()
-        },
-        pose);
-  }
-  
-  public ChassisSpeeds getSpeeds() {
-    return Constants.DriveConstants.kDriveKinematics.toChassisSpeeds(
-      m_frontLeft.getState(), m_frontRight.getState(), m_rearLeft.getState(), m_rearRight.getState()
-    );
-  }
-
-  public void driveRobotRelative(ChassisSpeeds robotRelativeSpeeds) {
-    drive(robotRelativeSpeeds.vxMetersPerSecond/Constants.DriveConstants.kMaxSpeedMetersPerSecond,
-          robotRelativeSpeeds.vyMetersPerSecond/Constants.DriveConstants.kMaxSpeedMetersPerSecond,
-          robotRelativeSpeeds.omegaRadiansPerSecond/Constants.DriveConstants.kMaxAngularSpeed,
-          false, true);
-  }
-
-
-
-
-
-
-
-public RobotContainer() {
-    // Calls the pathplanner file
-    public Command getAutonomousCommand() {
-        return autoChooser.getSelected();
+        //is target on left
+        } else if (TX<0) {
+            System.out.println("Rotate left slow"); 
+            robotDrive.drive(0.1, 0, 0.1, false, true);
+        // target is on right
+        } else {
+            System.out.println("Right right slow");
+            robotDrive.drive(0.1, 0, -0.1, false, true);
+        }
     }
 }
 
-public class Robot extends TimedRobot {
-  public void autonomousInit() {
-    m_autonomousCommand = m_robotContainer.getAutonomousCommand();
-    if (m_autonomousCommand != null) {
-      System.out.println("WE HAVE A Command!!!");
-      m_autonomousCommand.schedule();
-    }
-  }
-}
 
+public Command getfindNoteCommand() {
+   return new FunctionalCommand (() -> {},  // onInit
+                                 () -> findNoteExecute(),  // onExecute
+                                 (interrupted) -> {},  // onEnd
+                                 () -> { return ingestModule.getIngestHasNote(); },  // isFinished
+                                 ingestModule. robotDrive);                                  
+}
