@@ -1,6 +1,6 @@
 // https://rtestardi.github.io/pages/temp.txt
 
-public findNoteExecute()
+public void findNoteExecute()
 {
     double TA = LimelightHelpers.getTA("limelight");
     double TX = LimelightHelpers.getTX("limelight");
