@@ -53,8 +53,6 @@
 
 -----
 ## Files:
-- [bounce.html](https://rtestardi.github.io/pages/bounce.html) -- Animation javascript graphics example
-- [prime.html](https://rtestardi.github.io/pages/prime.html) -- Prime number javascript graphics example
 - [dream.pdf](https://rtestardi.github.io/usbte/dream.pdf) -- Campion Academy career fair document: Flea-Scope™, from dream to reality!
 - [gadget.pdf](https://rtestardi.github.io/usbte/gadget.pdf) -- Building a WebUSB or Web Serial Gadget
 - [math.pdf](https://rtestardi.github.io/pages/math.pdf) -- Permutations and Combinations and Probabily Algebra-II sub notes
