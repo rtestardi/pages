@@ -10,12 +10,13 @@ https://www.youtube.com/watch?v=e2G5zx-OJIw
 https://www.youtube.com/watch?v=MV5Jn_EzjYU
 https://www.leonschools.net/cms/lib/FL01903265/Centricity/Domain/5938/Punnett%20Square%201.pdf
 
+
+
 Raspberry Pi Camera Module 5MP 1080P OV5647 Sensor with M12 FOV90 IR Filter LEN for Raspberry Pi 5, Pi4, Pi 3 B+, Pi 3, Pi 2, Pi B+, Pi A, Pi Zero
 OV5647
 90 DFOV
 39mmx39mm
 https://www.amazon.com/dp/B07G9VLPZH?ref_=ppx_hzsearch_conn_dt_b_fed_asin_title_2
-
 
 Global Shutter Camera Module with OV9281 Mono Sensor, 309fps High Speed, Native Raspberry Pi OS Driver, Supports Rpi-Cam/Libcamera & External Trigger, for All RPi Models
 OV9281
