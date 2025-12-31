@@ -3,7 +3,8 @@
 -----
 **[Calchemy Units Calculator](https://rtestardi.github.io/calchemy/calchemy.html) -- Calchemy™ -- Math Magic**
 > [Dimensional Analysis 101](https://rtestardi.github.io/pages/dimensional.analysis.pdf) -- an introduction to dimensional analysis for students and engineers
-> [Interact Pendulum](https://rtestardi.github.io/calchemy/interact_dev.html) -- example of interactive webpage using calchemy database and engine
+> <br/>
+> [Interact Pendulum](https://rtestardi.github.io/calchemy/interact_dev.html) -- example of interactive webpage using Calchemy database and engine
 
 -----
 **[Flea-Scope™ User's Guide](https://rtestardi.github.io/usbte/flea-scope.pdf) -- Flea-Scope™ -- a very low-cost and easy-to-use 18 Msps USB oscilloscope and logic analyzer**
