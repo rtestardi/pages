@@ -57,13 +57,7 @@
 ## Files:
 - [dream.pdf](https://rtestardi.github.io/usbte/dream.pdf) -- Campion Academy career fair document: Flea-Scope™, from dream to reality!
 - [gadget.pdf](https://rtestardi.github.io/usbte/gadget.pdf) -- Building a WebUSB or Web Serial Gadget
-- [math.pdf](https://rtestardi.github.io/pages/math.pdf) -- Permutations and Combinations and Probabily Algebra-II sub notes
 - [mfe.pdf](https://rtestardi.github.io/pages/mfe.pdf) -- Microcontrollers For Everyone!  (Lowering the barrier to entry to useful microcontroller development)
 - [pcba.pdf](https://rtestardi.github.io/usbte/pcba.pdf) -- Flea-Scope™ Parts, Assembly, and Test
 - [pcbafd.pdf](https://rtestardi.github.io/usbte/pcbafd.pdf) -- PCBA for Dummies (getting over your fear of online printed circuit board assembly!)
-- [python4.pdf](https://rtestardi.github.io/pages/python4.pdf) -- BICS Python notes #4
-- [python5.pdf](https://rtestardi.github.io/pages/python5.pdf) -- BICS Python notes #5
 - [vantage.pdf](https://rtestardi.github.io/pages/vantage.pdf) -- When your outdoor lamp with non-replaceable LEDs fails after a couple of years...
-
------
-![hits](https://hits.sh/rtestardi.github.io/pages.svg)
